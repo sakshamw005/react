@@ -1,0 +1,32 @@
+# -------------------------------------------------------------------
+# Comments start with a '#' - Git ignores these lines
+# -------------------------------------------------------------------
+
+# Ignore specific files
+secrets.json
+config.local.js
+
+# Ignore all files with a specific extension (Logs)
+*.log
+*.tmp
+
+# Ignore an entire directory (Dependencies and Build Outputs)
+node_modules/
+/dist/
+/build/
+
+# Ignore Operating System system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE / Code Editor configuration folders
+.vscode/
+.idea/
+
+# -------------------------------------------------------------------
+# Pattern Exceptions
+# -------------------------------------------------------------------
+# Ignore all text files...
+*.txt
+# ...BUT do not ignore this specific file
+!important_notes.txt
